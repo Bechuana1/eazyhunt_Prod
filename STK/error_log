@@ -1,0 +1,12 @@
+[14-Dec-2024 05:12:07 UTC] PHP Warning:  Undefined property: stdClass::$CallbackMetadata in /home/eazyhunt/public_html/STK/callback.php on line 21
+[14-Dec-2024 05:12:07 UTC] PHP Warning:  Attempt to read property "Item" on null in /home/eazyhunt/public_html/STK/callback.php on line 21
+[14-Dec-2024 05:12:07 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eazyhunt/public_html/STK/callback.php on line 21
+[14-Dec-2024 05:12:07 UTC] PHP Warning:  Attempt to read property "Value" on null in /home/eazyhunt/public_html/STK/callback.php on line 21
+[14-Dec-2024 05:12:07 UTC] PHP Warning:  Undefined property: stdClass::$CallbackMetadata in /home/eazyhunt/public_html/STK/callback.php on line 22
+[14-Dec-2024 05:12:07 UTC] PHP Warning:  Attempt to read property "Item" on null in /home/eazyhunt/public_html/STK/callback.php on line 22
+[14-Dec-2024 05:12:07 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eazyhunt/public_html/STK/callback.php on line 22
+[14-Dec-2024 05:12:07 UTC] PHP Warning:  Attempt to read property "Value" on null in /home/eazyhunt/public_html/STK/callback.php on line 22
+[14-Dec-2024 05:12:07 UTC] PHP Warning:  Undefined property: stdClass::$CallbackMetadata in /home/eazyhunt/public_html/STK/callback.php on line 23
+[14-Dec-2024 05:12:07 UTC] PHP Warning:  Attempt to read property "Item" on null in /home/eazyhunt/public_html/STK/callback.php on line 23
+[14-Dec-2024 05:12:07 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eazyhunt/public_html/STK/callback.php on line 23
+[14-Dec-2024 05:12:07 UTC] PHP Warning:  Attempt to read property "Value" on null in /home/eazyhunt/public_html/STK/callback.php on line 23

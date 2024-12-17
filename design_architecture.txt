@@ -1,0 +1,63 @@
+the system design flow.
+1.	Landlord/Caretaker registration
+•	The landlord/caretaker visits the registration page and provides their full name, mobile number, email address (optional), and password.
+•	The system validates the registration information and creates a new user account for the landlord/caretaker.
+•	The landlord/caretaker is automatically logged in to the system.
+
+
+2.	Apartment registration
+•	The landlord/caretaker navigates to the "Register Apartment" page and provides the name of the apartment (optional), the county (with Kiambu as the default), the town (with Juja as the default), the landmark (optional), and the plot number (optional).
+•	The landlord/caretaker can also provide a list of facilities available in the apartment, such as water, electricity, security, etc.
+•	The system validates the information and creates a new apartment record, linked to the landlord/caretaker's account.
+•	The landlord/caretaker is redirected to the apartment details page, where they can view and edit the apartment's information.
+
+3.	Room listing
+•	The landlord/caretaker navigates to the apartment details page and clicks the "Add Room" button.
+•	The landlord/caretaker provides the room's details, including the rental price, the room type (single, double, etc.), additional facilities (if any), and an image of the room.
+•	The system validates the information and creates a new room record, linked to the apartment record and the landlord/caretaker's account.
+•	The room vacancy status is set to "vacant" by default.
+
+
+4.	Tenant booking
+•	A tenant navigates to the apartment listing page and searches for available rooms in the desired location and price range.
+•	When the tenant finds a room they are interested in, they click the "Book Now" button and are redirected to the booking details page.
+•	The tenant provides their name, mobile number, and optionally their email address.
+•	The system validates the information and creates a new booking record, linked to the room record and the tenant's account.
+•	The room vacancy status is updated to "booked", and the landlord/caretaker is notified of the booking confirmation.
+•	The tenant is redirected to a confirmation page and is provided with the landlord/caretaker's contact information to make arrangements for the move-in.
+Note: this booking is done as a way to track the our customers, and also to validate the system.
+
+
+
+Registration fields:
+•	Full name: This field should be mandatory to ensure accurate identification of the landlord/caretaker.
+•	Mobile number: This field should be mandatory as it will be used for communication and verification purposes.
+•	Email: This field is optional but it can be useful for communication and account recovery.
+•	Password: This field should be mandatory and you can enforce password complexity rules to ensure security.
+•	Time created: This field should automatically record the time the user account was created.
+•	Role: This field should be set to "Caretaker" by default.
+
+Apartment fields:
+•	Name: This field is optional and can be used to give a unique name to the apartment.
+•	County: This field should default to a specific county or region where the rental system operates.
+•	Town: This field should default to a specific town or city where the rental system operates.
+•	Landmark: This field is optional and can be used to give a unique identifier to the apartment location.
+•	Plot number: This field is optional and can be used to give the exact location of the apartment.
+•	Facilities: This field should include a list of all available amenities in the apartment.
+•	Time created: This field should automatically record the time the apartment was created.
+•	Time updated: This field should automatically record the time the apartment was last updated.
+
+Room fields:
+•	Price: This field should indicate the rental price for the room.
+•	Type of room: This field should indicate the type of room, such as single, double, or triple.
+•	Additional facilities: This field is optional and can be used to list any unique features of the room.
+•	Image of the room: This field can be used to upload an image of the room to give renters a better idea of what the room looks like.
+•	Is vacant: This field should be a boolean value (true/false) to indicate if the room is currently available for rent.
+•	Time created: This field should automatically record the time the room was created.
+•	Time updated: This field should automatically record the time the room was last updated.
+
+Tenant registration
+•	Name: takes their name 
+•	Mobile: contains their mobile number
+•	Email:  email for a booking confirmation/ thank you for using our platform
+•	Time created: takes the time 

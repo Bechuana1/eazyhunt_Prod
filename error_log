@@ -1,0 +1,2 @@
+[02-Dec-2024 10:12:15 UTC] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/eazyhunt/public_html/config/config.php on line 18
+[15-Dec-2024 18:52:47 UTC] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/eazyhunt/public_html/config/config.php on line 18
